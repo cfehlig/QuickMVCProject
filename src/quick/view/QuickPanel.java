@@ -1,8 +1,7 @@
 package quick.view;
 
 import javax.swing.*;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
+import java.awt.event.*;
 import quick.controller.QuickController;
 import java.awt.Color;
 
@@ -59,6 +58,35 @@ public class QuickPanel extends JPanel
 				firstField.setText("Wow, this is the most amazing click event ever! WOW!");
 			}
 		
+		});
+		
+		this.addMouseListener(new MouseListener()
+		{
+			public void mouseClicked(MouseEvent click)
+			{
+				
+			}
+			
+			public void MouseReleased(MouseEvent released)
+			{
+				
+			}
+			
+			public void mousePressed(MouseEvent pressed)
+			{
+				
+			}
+			
+			public void mouseEntered(MouseEvent entered)
+			{
+				
+			}
+			
+			public void mouseExited(MouseEvent exited)
+			{
+				
+			}
+			
 		});
 	}
 }
