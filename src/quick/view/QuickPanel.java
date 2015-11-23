@@ -78,7 +78,7 @@ public class QuickPanel extends JPanel
 				
 			}
 			
-			public void MouseReleased(MouseEvent released)
+			public void mouseReleased(MouseEvent released)
 			{
 				changeRandomColor();
 			}
