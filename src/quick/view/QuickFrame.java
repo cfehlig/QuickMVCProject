@@ -22,5 +22,10 @@ public class QuickFrame extends JFrame
 		this.setSize(400,400);
 		this.setVisible(true);
 	}
+	public QuickController getBaseController()
+	{
+		return baseController;
+	}
+	
 
 }
